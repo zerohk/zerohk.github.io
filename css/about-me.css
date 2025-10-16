@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.about-details {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  border: solid rgb(233, 249, 248) 2px;
+  border-radius: 40px;
+  padding: 40px;
+}
+
+h1,
+h2 {
+  font-family: "Douyin Sans";
+  font-weight: "700";
+}
+
+h2 {
+  line-height: 1.5;
+  padding-bottom: 1%;
+}
+
+article {
+  font-family: "Maple Mono CN";
+  font-weight: "700";
+}
