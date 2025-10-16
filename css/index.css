@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: rgba(249, 250, 251, 1);
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Maple Mono CN SemiBold";
+  font-weight: "400";
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.link-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.link-list a {
+  text-decoration: none;
+}
