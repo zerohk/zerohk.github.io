@@ -26,8 +26,17 @@ header {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  color: rgb(4, 80, 213);
 }
 
 .link-list a {
   text-decoration: none;
+}
+
+.link-list a:hover {
+  color: rgb(146, 190, 214);
+}
+
+.link-list a:visited {
+  color: rgb(146, 190, 214);
 }
